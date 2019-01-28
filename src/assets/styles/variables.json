@@ -1,0 +1,11 @@
+{
+  "error-color": "#e44845",
+  "green": "#4e8839",
+  "grey": "#dee3e7",
+  "fullhd": "1800px",
+  "desktop": "1200px",
+  "laptop": "992px",
+  "tablet": "768px",
+  "phone": "480px",
+  "iphone": "320px"
+}

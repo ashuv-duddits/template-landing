@@ -1,0 +1,55 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "template landing page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  },
+  "author": "Alexander Shuvalov",
+  "license": "ISC",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "autoprefixer": "^9.4.6",
+    "babel-loader": "^8.0.5",
+    "browser-sync": "^2.26.3",
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.8",
+    "del": "^3.0.0",
+    "eslint": "^5.12.1",
+    "eslint-loader": "^2.1.1",
+    "gulp": "^4.0.0",
+    "gulp-cheerio": "^0.6.3",
+    "gulp-if": "^2.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^2.1.0",
+    "postcss-advanced-variables": "^3.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-inline-svg": "^3.1.1",
+    "postcss-nested": "^4.1.1",
+    "postcss-rgb": "^1.0.0",
+    "postcss-scss": "^2.0.0",
+    "postcss-svgo": "^4.0.1",
+    "uglifyjs-webpack-plugin": "^2.1.1",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-stream": "^5.2.1"
+  }
+}

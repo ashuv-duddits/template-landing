@@ -1,0 +1,21 @@
+mixin icon(iconName, iconClass)
+  svg(class=`${iconClass}`)
+    use(xlink:href=`./assets/images/icons/sprite.svg#${iconName}`)
+
+mixin image(imagePath, imageAlt, imageClass)
+  img(src=`./assets/images/${imagePath}`, alt=`${imageAlt}`, class=`${imageClass}`)
+
+mixin listIcons(className, icons, iconsHref)
+  ul(class=`${className}__list`)
+    - for(var i=0; i<icons.length; i++)
+      li(class=`${className}__item`)
+        a(class=`${className}__link`, href=`${iconsHref[i]}`, target="_blank")
+          +icon(`${icons[i]}`,`${icons[i]}-icon`)
+
+mixin menu(className, items)
+  ul(class=`${className}__list`)
+    - for(var i=0; i<items.length; i++)
+      li(class=`${className}__item`)
+        a(class=`${className}__link`, href=`${itemsHref[i]}`)=`${items[i]}`
+
+

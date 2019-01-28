@@ -1,0 +1,31 @@
+//adaptive
+@mixin fullhd {
+  @media (max-width: $fullhd){
+    @content;
+  }
+}
+@mixin desktop {
+  @media (max-width: $desktop){
+    @content;
+  }
+}
+@mixin laptop {
+  @media (max-width: $laptop){
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: $tablet){
+    @content;
+  }
+}
+@mixin phone {
+  @media (max-width: $phone){
+    @content;
+  }
+}
+@mixin iphone {
+  @media (max-width: $iphone){
+    @content;
+  }
+}
