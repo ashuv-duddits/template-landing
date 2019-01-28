@@ -1,2 +1,2 @@
-let i = 0;
-console.log(i);
+import Slider from './modules/slider'
+Slider();
